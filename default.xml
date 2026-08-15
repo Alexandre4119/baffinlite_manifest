@@ -585,6 +585,10 @@
   <project path="external/chromium-webview" name="BroadcomOreo/android_external_chromium-webview-hawaii" clone-depth="1" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
 
+  <project path="device/samsung/baffinlite" name="Alexandre4119/android_device_samsung_baffinlite" remote="github" revision="lineage-15.1" />
+  <project path="vendor/samsung/baffinlite" name="Alexandre4119/android_vendor_samsung_baffinlite" remote="github" revision="lineage-15.1" />
+  <project path="kernel/samsung/baffinlite" name="Alexandre4119/android_kernel_samsung_baffinlite" remote="github" revision="lineage-15.1" />
+
   <include name="snippets/lineage.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
